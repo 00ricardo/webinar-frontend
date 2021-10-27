@@ -26,3 +26,11 @@ npm install
 After the dependencies are installed, take a look about your project structure. You will have something like this:
 
 ![title](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210302172407/Capture32.png)
+
+###### 1.3 - Clone the project:
+```sh
+npm start
+```
+
+> Note: `Starting your app will redirect you to your browser`. Check in the sidebar the options. 
+> - `Pick Android Emulator.`
