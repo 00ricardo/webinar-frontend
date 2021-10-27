@@ -1,7 +1,7 @@
 ### Init your React Native app
 Follow these steps to get started with your CRUD application. If you had problems with some step please check our [documentation] to solve your issue .
 ### Installation
-React Native requires Node.js v10+ to run. To install it click [here](https://nodejs.org/en/download/).
+React Native requires Node.js v10+ to run. To install it click [here](https://nodejs.org/en/download/). Also, it will need an Android Virtual Device (AVD).
 
 ##### 1 - Install the dependencies and configurations. Open command line and type:
 ###### 1.1 - Install Node and expo-cli
@@ -33,4 +33,4 @@ npm start
 ```
 
 > Note: `Starting your app will redirect you to your browser`. Check in the sidebar the options. 
-> - `Pick Android Emulator.`
+> - `Pick Android Emulator. Make sure you have the Android Emulator running. It's recommended Nexus One 3.7 4480x800 hdpi with Marshmallow Android 6.0 x86.`
