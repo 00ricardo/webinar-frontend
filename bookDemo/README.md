@@ -48,3 +48,4 @@ ionic serve
 
 ```
 
+###### WARNING: You should use Google Chrome to view the application, as there is an incompatability in terms of the date format in browsers such as Firefox.
