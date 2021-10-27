@@ -4,12 +4,16 @@ https://nodejs.org/en/
 ## WEBINAR - FRONTEND FRAMEWORKS WITH HYBRID APPROACHES (Native + Web)
 #
 ### Init your Ionic Angular app
-Follow these steps to get started with your Book Database application. If you had problems with some step please check our [documentation] to solve your issue .
+Follow these steps to get started with your Book Database application.
 ### Installation
-React Native requires Node.js v10+ to run. To install it click [here](https://nodejs.org/en/download/).
+Ionic Angular requires Node.js to run. To install it click [here](https://nodejs.org/en/download/). The LTS version is recommended.
+
+Make sure it is working by running:
+node --version
+npm --version
 
 ##### 1 - Install the dependencies and configurations. Open command line and type:
-###### 1.1 - Install Node and expo-cli
+###### 1.1 - Install the Ionic CLI
 #
 ```sh
 node -v
