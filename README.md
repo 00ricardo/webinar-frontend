@@ -3,7 +3,8 @@
 ### WEBINAR - FRONTEND FRAMEWORKS WITH HYBRID APPROACHES (Native + Web)
 
 ###### Group:
-- Filipe Santos
+- Filipe Santos 
 - Carlos Mendes
 - Ricardo Briceño
--
+
+
