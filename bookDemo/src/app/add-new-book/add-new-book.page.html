@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add New Book</ion-title>
+    <ion-icon name="close" slot="end" size="large" (click)="dismiss()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-textarea [(ngModel)]="bookTitle" placeholder="Write the book title here"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-textarea [(ngModel)]="bookAuthor" placeholder="Write the name of the author here"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Category</ion-label>
+      <ion-select [(ngModel)]="bookCategory">
+        <ion-select-option value="Action">Action</ion-select-option>
+        <ion-select-option value="Comedy">Comedy</ion-select-option>
+        <ion-select-option value="Fantasy">Fantasy</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="calendar-outline"slot="start"></ion-icon>
+      <ion-label>Release Date </ion-label>
+      <ion-datetime [(ngModel)]="bookReleaseDate"  displayFormat="D MMM YYYY H:mm"></ion-datetime>
+    </ion-item>
+
+    
+
+    <ion-button class="ion-margin" expand="block" (click)="AddBook()">Add Book</ion-button>
+
+  </ion-card>
+</ion-content>
