@@ -26,7 +26,14 @@ npm install -g @ionic/cli
 For any problems check https://ionicframework.com/docs/intro/cli
 
 
+##### 2 (Optional) - How to create an app (not necessary for this tutorial, as you already have an app to work with). Open command line and type:
 
+```sh
+ionic start
+
+```
+
+When it asks you if you want to use the creation wizard type no. Then, select the framework to use (Angular). 
 
 ## License
 
