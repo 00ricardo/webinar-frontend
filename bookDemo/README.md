@@ -9,8 +9,10 @@ Follow these steps to get started with your Book Database application.
 Ionic Angular requires Node.js to run. To install it click [here](https://nodejs.org/en/download/). The LTS version is recommended.
 
 Make sure it is working by running:
+```sh
 node --version
 npm --version
+```
 
 ##### 1 - Install the dependencies and configurations. Open command line and type:
 ###### 1.1 - Install the Ionic CLI
