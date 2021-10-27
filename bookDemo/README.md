@@ -35,7 +35,14 @@ ionic start
 
 When it asks you if you want to use the creation wizard type no. Then, select the framework to use (Angular) and the name for the project. You will be asked to pick a template from different options. And that's it! Now just wait for it to finish (you can just type no for the prompts that show up when it finishes).
 
-##### 3 - Running the app. Go to the project folder, open command line and type:
+##### 3 - Install Node Modules. Open command line and type:
+
+```sh
+npm install
+
+```
+
+##### 4 - Running the app. Go to the project folder, open command line and type:
 
 ```sh
 ionic serve
