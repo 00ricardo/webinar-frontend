@@ -56,4 +56,3 @@ ionic serve
 ionic g page pageName
 
 ```
-
