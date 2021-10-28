@@ -49,3 +49,11 @@ ionic serve
 ```
 
 ###### WARNING: You should use Google Chrome to view the application, as there is an incompatibility in terms of the date format in browsers such as Firefox.
+
+##### 5 - Adding new pages (optional). Go to the project folder, open command line and type:
+
+```sh
+ionic g page pageName
+
+```
+
