@@ -11,16 +11,16 @@ export class HomePage {
 
 
   bookWishList = [{
-    title: "The Witcher",
-    author: "Someone",
-    releaseDate: "9-10-19",
-    category: "Action"
+    title: "How the Grinch Stole Christmas!",
+    author: "Dr. Seuss",
+    releaseDate: "10-12-1957",
+    category: "Fantasy"
   },
   {
-    title: "Harry Potter",
-    author: "Person 2",
-    releaseDate: "4-6-14",
-    category: "Fantasy"
+    title: "The Tower of the Swallow",
+    author: "Andrzej Sapkowski",
+    releaseDate: "5-17-2016",
+    category: "Action"
   }]
 
   showBookWishList = true;
@@ -28,9 +28,9 @@ export class HomePage {
   button = "Book Collection"
 
   bookCollection = [{
-    title: "Black Tulip",
-    author: "Another Person",
-    releaseDate: "1-1-19",
+    title: "The Complete Calvin and Hobbes",
+    author: "Bill Watterson",
+    releaseDate: "9-6-2005",
     category: "Comedy"
   }]
 
@@ -73,7 +73,7 @@ export class HomePage {
     
   }
 
-  buyBook(index){
+  bookToCollection(index){
     this.bookCollection.push(this.bookWishList[index]);
     this.bookWishList.splice(index, 1);
   }
