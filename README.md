@@ -2,6 +2,9 @@
 
 ### WEBINAR - FRONTEND FRAMEWORKS WITH HYBRID APPROACHES (Native + Web)
 
+###### Requisitos
+Para
+
 ###### Group:
 - Filipe Santos 
 - Carlos Mendes
