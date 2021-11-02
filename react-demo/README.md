@@ -27,7 +27,7 @@ After the dependencies are installed, take a look about your project structure. 
 
 ![title](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210302172407/Capture32.png)
 
-###### 1.3 - Clone the project:
+###### 1.3 - Run the project:
 ```sh
 npm start
 ```
