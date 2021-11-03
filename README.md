@@ -1,4 +1,4 @@
-# Computação Móvel 20/21 - Faculdade de Ciências e Tecnologia da Universidade de Coimbra
+# Computação Móvel 21/22 - Faculdade de Ciências e Tecnologia da Universidade de Coimbra
 
 ### WEBINAR - FRONTEND FRAMEWORKS WITH HYBRID APPROACHES (Native + Web)
 
